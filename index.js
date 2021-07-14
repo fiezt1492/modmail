@@ -278,7 +278,10 @@ client.on("message", async message => {
               .setColor("RED")
               .setFooter('In progress.');
             return message.channel.send(lembed);
-        }
+        } 
+            else if (command == "rbw") {
+                if (!message.content.startsWith(prefix)) return;
+                message.channel.send('<a:acongablob:864797216992788490><a:acongablob:864797216992788490><a:acongablob:864797216992788490><a:acongablob:864797216992788490>');
 
 
     }
