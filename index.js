@@ -281,7 +281,7 @@ client.on("message", async message => {
         } 
             else if (command == "rbw") {
                 if (!message.content.startsWith(prefix)) return;
-                message.channel.send('<a:acongablob:864797216992788490><a:acongablob:864797216992788490><a:acongablob:864797216992788490><a:acongablob:864797216992788490>');
+                message.channel.send('<a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722>');
             }
 
     }
