@@ -278,9 +278,14 @@ client.on("message", async message => {
               .setColor("RED")
               .setFooter('In progress.');
             return message.channel.send(lembed);
+            
         } 
             else if (command == "rbw") {
                 if (!message.content.startsWith(prefix)) return;
+                
+                if (!message.member.roles.cache.find((x) => x.name == "Staff")) {
+                return message.reply("Bạn cần role `Staff`.");
+                    
                 message.channel.send('<a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722><a:acongablob:852756175568371722>');
                 message.delete();
             }
