@@ -5,17 +5,6 @@ const client = new discord.Client()
 const { prefix, ServerID, TOKEN, ACT, STT } = require("./config.json")
 const config = require('./config.json');
 
-static void UpdatePresence()
-{
-    DiscordRichPresence discordPresence;
-    memset(&discordPresence, 0, sizeof(discordPresence));
-    discordPresence.startTimestamp = 1507665886;
-    discordPresence.largeImageKey = "owllog";
-    discordPresence.partyId = "ae488379-351d-4a4f-ad32-2b9b01c91657";
-    discordPresence.joinSecret = "MTI4NzM0OjFpMmhuZToxMjMxMjM= ";
-    Discord_UpdatePresence(&discordPresence);
-};
-
 client.on("ready", () => {
 
     console.log("Bot online")
