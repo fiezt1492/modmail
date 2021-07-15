@@ -10,6 +10,8 @@
 4. [prefix]say + <message> > Say it for you but no to delete your previous command.
 5. [prefix]sayd + <message> > Same as ^ but delete your command to annonies you.
 ```
+____
+## HOW TO USE ME
 
 **Fork this public repository, make it private and commit some changes to *config.json* file.**
 
@@ -35,10 +37,12 @@ For example:
 - Come to tab *Resources*, unselect *web npm start* and enable *worker node index.js*
 - Check the bot in your server!
 
-#### Tasks
+____
+## Tasks
 
 - [ ] Easy to host on heroku.
 - [x] Main function.
 - [ ] Custom prefix.
 
+____
 Modded bot. Fork from fearless.modmail. 
