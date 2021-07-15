@@ -3,12 +3,13 @@
 ## Main functions
 
 `<>` is optional. `[]` is compusory.
-
+```
 1. [prefix]open + [user_ID] > Open a help case with the user with his ID.
 2. [prefix]close > Close ^ case.
 3. [prefix]mm > If your are staff, bot sends black help panel. Unless, send white help panel.
 4. [prefix]say + <message> > Say it for you but no to delete your previous command.
 5. [prefix]sayd + <message> > Same as ^ but delete your command to annonies you.
+```
 
 **Fork this public repository, make it private and commit some changes to *config.json* file.**
 
