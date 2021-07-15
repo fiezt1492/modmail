@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const client = new discord.Client()
 // const prefix = require(process.env.PREFIX);
 // const ServerID = require(process.env.SERVER_ID);
-const { prefix, ServerID, TOKEN } = require("./config.json")
+const { prefix, ServerID, TOKEN, ACT, STT } = require("./config.json")
 const config = require('./config.json');
 
 client.on("ready", () => {
@@ -10,8 +10,8 @@ client.on("ready", () => {
     console.log("Bot online")
     client.user.setActivity(
       {
-          type: "WATCHING",
-          name: "Hãy nhắn cho tôi!"
+          type: ACT,
+          name: STT
     })
 })
 
