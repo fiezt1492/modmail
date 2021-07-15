@@ -13,7 +13,7 @@ For example:
 }
 ```
 
-### Host on heroku.com (As if you don't know how)
+### Host on heroku.com (as if you don't know how to)
 
 
 #### Heroku
