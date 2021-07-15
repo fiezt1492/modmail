@@ -1,9 +1,9 @@
 const discord = require("discord.js");
 const client = new discord.Client()
-const prefix = require(process.env.PREFIX);
-const ServerID = require(process.env.SERVER_ID);
-//const { prefix, ServerID } = require("./config.json")
-//const config = require('./config.json');
+// const prefix = require(process.env.PREFIX);
+// const ServerID = require(process.env.SERVER_ID);
+const { prefix, ServerID, TOKEN } = require("./config.json")
+const config = require('./config.json');
 
 client.on("ready", () => {
 
@@ -364,4 +364,4 @@ client.on("message", async message => {
 })
 
 
-client.login(process.env.TOKEN)
+client.login(TOKEN)
