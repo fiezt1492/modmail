@@ -1,7 +1,9 @@
 const discord = require("discord.js");
 const client = new discord.Client()
-const { prefix, ServerID } = require("./config.json")
-const config = require('./config.json');
+const prefix = require(process.env.PREFIX);
+const ServerID = require(process.env.SERVER_ID);
+//const { prefix, ServerID } = require("./config.json")
+//const config = require('./config.json');
 
 client.on("ready", () => {
 
@@ -9,7 +11,7 @@ client.on("ready", () => {
     client.user.setActivity(
       {
           type: "WATCHING",
-          name: "Owlvernyte | Hãy nhắn cho tôi!"
+          name: "Hãy nhắn cho tôi!"
     })
 })
 
