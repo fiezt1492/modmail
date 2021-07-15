@@ -22,6 +22,8 @@ For example:
 - Come to tab *Resources*, unselect *web npm start* and enable *worker node index.js*
 - Check the bot in your server!
 
-[ ] Easy to host on heroku.
-[x] Main function.
-[ ] Custom prefix.
+#### Tasks
+
+- [ ] Easy to host on heroku.
+- [x] Main function.
+- [ ] Custom prefix.
