@@ -265,7 +265,7 @@ client.on("message", async message => {
               if (!message.content.startsWith(prefix)) return;
               let embed = new discord.MessageEmbed()
                   .setAuthor('Links of us',`https://cdn.discordapp.com/attachments/852888201391374376/853598262724395018/20210613_182942.gif`,'https://www.youtube.com/channel/UCEG5sgFKieaUuHsu5VG-kBg')
-                  .setDescription('**Discord**: *https://discord.link/owlvernyte*\n**Facebook**: *https://www.facebook.com/owlvernyte*\n\n> **Vote our server**: *https://top.gg/servers/830110554604961824*')
+                  .setDescription('**Discord**: *https://discord.link/owlvernyte*\n**Facebook**: *https://www.facebook.com/owlvernyte*\n\n> **Vote our server**: *https://top.gg/servers/830110554604961824*\n**Donate us via Playerduo**: *https://playerduo.com/owlvernyte*')
                   .setColor("PURPLE")
                   .setFooter('Thánk kìu à lót!')
                   .setThumbnail();
