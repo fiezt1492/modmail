@@ -1,7 +1,10 @@
-# modmail
+### modmail
 
 ## Main functions
 
+Users can DM to BOT and chat with the server staff through the bot.
+
+# Commands
 `<>` is optional. `[]` is compusory.
 ```
 1. [prefix]open + [user_ID] > Open a help case with the user with his ID.
