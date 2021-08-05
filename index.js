@@ -1,6 +1,8 @@
 const discord = require("discord.js");
 const client = new discord.Client()
-const { prefix, ServerID, TOKEN, ACT, STT } = require("./config.json")
+const { ACT, STT } = require("./config.json")
+const prefix = process.env.PREFIX
+const ServerID = process.env.ServerID
 const config = require('./config.json');
 
 client.on("ready", () => {
