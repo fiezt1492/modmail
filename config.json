@@ -1,5 +1,7 @@
-  
-{
+  {
+    "PREFIX": ,
+    "TOKEN": ,
+    "SERVER_ID": ,
     "ACT": "WATCHING",
     "STT": "hãy nhắn cho tôi!"
 }  
