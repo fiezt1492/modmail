@@ -1,7 +1,7 @@
   {
-    "prefix": process.env.PREFIX,
-    "TOKEN": process.env.TOKEN,
-    "ServerID": process.env.SERVER_ID,
+    "prefix": ,
+    "TOKEN": ,
+    "ServerID": ,
     "ACT": "WATCHING",
     "STT": "hãy nhắn cho tôi!"
 }  
