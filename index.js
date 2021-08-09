@@ -265,13 +265,36 @@ client.on("message", async message => {
         }
           else if (command == "links") {
               if (!message.content.startsWith(prefix)) return;
-              let embed = new discord.MessageEmbed()
-                  .setAuthor('Links of us',`https://cdn.discordapp.com/attachments/852888201391374376/853598262724395018/20210613_182942.gif`,'https://www.youtube.com/channel/UCEG5sgFKieaUuHsu5VG-kBg')
-                  .setDescription('**Discord**: *https://discord.link/owlvernyte*\n**Facebook**: *https://www.facebook.com/owlvernyte*\n\n> **Vote our server**: *https://top.gg/servers/830110554604961824*\n> **Donate us via Playerduo**: *https://playerduo.com/owlvernyte*')
-                  .setColor("PURPLE")
-                  .setFooter('Thánk kìu à lót!')
-                  .setThumbnail();
-              return message.channel.send(embed);
+//               let embed = new discord.MessageEmbed()
+//                   .setAuthor('Links of us',`https://cdn.discordapp.com/attachments/852888201391374376/853598262724395018/20210613_182942.gif`,'https://www.youtube.com/channel/UCEG5sgFKieaUuHsu5VG-kBg')
+//                   .setDescription('**Discord**: *https://discord.link/owlvernyte*\n**Facebook**: *https://www.facebook.com/owlvernyte*\n\n> **Vote our server**: *https://top.gg/servers/830110554604961824*\n> **Donate us via Playerduo**: *https://playerduo.com/owlvernyte*')
+//                   .setColor("PURPLE")
+//                   .setFooter('Thánk kìu à lót!')
+//                   .setThumbnail();
+              return message.channel.send({
+        embed: {
+          color: 'RANDOM',
+          author: { name: 'The Owls', 
+            // url: 'https://www.youtube.com/channel/UCEG5sgFKieaUuHsu5VG-kBg',
+            icon_url: 'https://cdn.discordapp.com/attachments/852888201391374376/853598262724395018/20210613_182942.gif'},
+          description: '[Invibe me!](https://discord.com/api/oauth2/authorize?client_id=853623967180259369&permissions=8&scope=bot)',
+          fields: [
+            {
+              name: 'Connect with us',
+              value: `[Youtube](https://www.youtube.com/channel/UCEG5sgFKieaUuHsu5VG-kBg) | [Discord](https://discord.link/owlvernyte) | [Facebook](https://www.facebook.com/owlvernyte)`
+            },
+            {
+              name: `Vote`,
+              value: `[Vote our server](https://top.gg/servers/830110554604961824) | [Vote me here](https://top.gg/bot/853623967180259369)`,
+            },
+            {
+              name: `Pay me a coffee`,
+              value: `[Playerduo](https://playerduo.com/owlvernyte)`
+            }
+          ],
+          footer: {text: "Fiezt#1492 || Slimaeus#8878"}
+        }
+      });
 
         } else if (command == "nick") {
             if (!message.content.startsWith(prefix)) return;
